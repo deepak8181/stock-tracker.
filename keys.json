@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "deepakproject-346513",
+  "private_key_id": "215376e593bc0dcc89789cfc73d7f5d4eacb112f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDJrkoKaSuQHi5h\nITejKezsbO3iFPoAzl6yz6AwSW2gIshEFEmIH8xzJAmnFVQrczjJSP1nF1Kldfu/\nx1T+zcxkMLP95rR0bOlSFsVkGean0rYdqE2HtCI5CFunKWT3ABbSnVO6sh746xbE\nyheaGuz1nahsxfZDsOVlMwC9umnphMgNA0Q3Y+v2ILiI/NU04wgO39E7SmAOeaMS\nARIuhdxYqkKjTEYIYRVq7Sipdr03TFnHgWAX4Ztuuacb+e85VHqlXS6wOq+HLq17\nTlWL3FGGh3sRdbte5FefWHbfpP9ygYhkiITYVclQA5Trc0zv3Thf8VXJcWpCxYVf\nJHE33Q33AgMBAAECggEAEHX2OxVMZe3gsTLJ3LpeSQm2/L3jjc9KMWP62hYUKX7N\nQ6k4OzEFOdyWIRn/jbBQ0TTw4cooh7Kygnudd1KKvR6wgiejUOFWxclwAPSQO+BZ\n1t/WvB26sVb6TBF32SUbt8L5g4JoPr7JU/R+qqhJ8N4WUhJyQCIfBvx7sgCWBmYX\n6OxLfvYFfVGmYMeehLK0GONnFkvHDsbsYfSbY3/vF/2Nkj1ZQ7v9TvQNbJ6t8kIl\nAKqKR3eYfFrb4lfwav0WR5MSLQLUzYfSogtQWqTdCTOMSVnq7HqkEyjeD2fv6EPE\nBR5kILzRCJta1J/KWAGY0sgtpsWki7X112kdKULkkQKBgQDnUdrOp7tI/mBuF1hq\nqlNzGQsxTr74rE44CAtLRrOa87NHA360WR86mC5OAV1Cn3Wg4urKx23XzpPftXdg\ntw3K6X+t93UcTHi2y6BQeJAWCKFsDehFh9W/7zIWNOxf8zEXnm9vSf0pu2YChlXz\nGVjpmr4vWDXc7xKnRQkm4mLiGQKBgQDfMuR6kvvwMlMK0XT5Jamgj9F3l8rAteBq\nLuh0oU8XneLzZv9qGdP3r2hzJwSJhzopXyFUj2Sw0bajTgOxWp/V8R2xudMIUvIR\nNOxED3VoJDrj2XlxIX/NKBafD/3okaj3gOvkozcuOqtJXM4lJ4uvquCGKdwzbhfG\n0xXa2fMSjwKBgEHpbwGHhbQM14lHGah7FAAt2KSaHYxZ/Ie2sxEl+jNi0WigtE/L\nPTzC9B7CAMLlEO1g+yoAnWnqsPQDjxp9zm5NDlaRtkrz90mOyAVl9RhyKRzS8aYu\nSFfCXnE5b0j/0LM8L+B0IrDrduutP3xfcphNwXdYGTD05knHQA5WX3qxAoGBAKF8\n1/Sbji8eqhikrYZqKo2iIMLvj2HY9dK9t7BS2b/Tm1XSSrBAma2WOvM94rmCnqE6\nVAozaX3JbeQ/2MokMIsBViO1uCtIoB209dDUgnTj6bvbKFOjEi2keKGDV4lCgkb4\n/zPAp3cKOc3tmLUnJJjoAGTxuoF3gTp4lVJv6L+fAoGAIPx3BAX+oy62Il0Pqq4y\nRvkD+D3liyI9Evhc/miFWXPuW3DE5sL1aFRD3KNDQnxsScJHDJeLdJ9XedxhnGLz\n+RuyD7ti1eQ0wFlSYPfVZ8CnJxMalKDJWRu9FfF6Q255iseb2eXH3sVc4oX3CUp1\nAiGr4MR31ArW5PqpTiJXq0E=\n-----END PRIVATE KEY-----\n",
+  "client_email": "deepakproject@deepakproject-346513.iam.gserviceaccount.com",
+  "client_id": "107266458245314345110",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/deepakproject%40deepakproject-346513.iam.gserviceaccount.com"
+}
