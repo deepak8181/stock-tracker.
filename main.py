@@ -6,9 +6,9 @@ from googleapiclient.discovery import build
 import itertools
 
 ##### google api   start####
-SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
+SCOPES = ['https://www.googleapis.com/auth/']
 
-SAMPLE_SPREADSHEET_ID = '1kGjbEazd3wCbsx3NpANMG3U0GlZNAnNMXX_IK0FC7xY'
+SAMPLE_SPREADSHEET_ID = 'write here your sample spreadsheet id'
 SERVICE_ACCOUNT_FILE='keys.json'
 creds = None
 creds=service_account.Credentials.from_service_account_file(
@@ -21,10 +21,8 @@ sheet = service.spreadsheets()
 ### end####
 
 STOCK_NAME = ["TCS","AMZN","TSLA","TWTR","AMC","AMD","MSFT","FB","NFLX","AAPL","QQQ","SPY","NVDA","GME","NIO"]
-# COMPANY_NAME = "Tesla Inc"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
-# NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
-stock_api_key="CW8E3GDOJPK39B4G"
+stock_api_key="write here your stock api key"
 
 stock_params={
         "function":"TIME_SERIES_DAILY",
@@ -41,13 +39,11 @@ result = sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID,
                                     range="Sheet1!B1", valueInputOption="USER_ENTERED", body={"values":lis}).execute()
 
 print(result)
-# print(lis)
 sleep(12)
 
-# def deepak():
 row_name="Sheet1!A2","Sheet1!A3","Sheet1!A4","Sheet1!A5","Sheet1!A6","Sheet1!A7","Sheet1!A8","Sheet1!A9","Sheet1!A10","Sheet1!A11","Sheet1!A12","Sheet1!A13","Sheet1!A14","Sheet1!A15","Sheet1!A16"
 
-
+#### we use here double loop###
 for (stock, row) in itertools.zip_longest(STOCK_NAME, row_name) :
 
     stock_params={
@@ -60,7 +56,7 @@ for (stock, row) in itertools.zip_longest(STOCK_NAME, row_name) :
     data_list=[value for (key, value) in data.items()]
     SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
-    SAMPLE_SPREADSHEET_ID = '1kGjbEazd3wCbsx3NpANMG3U0GlZNAnNMXX_IK0FC7xY'
+    SAMPLE_SPREADSHEET_ID = ''
     SERVICE_ACCOUNT_FILE='keys.json'
     creds = None
     creds=service_account.Credentials.from_service_account_file(
@@ -87,4 +83,3 @@ for (stock, row) in itertools.zip_longest(STOCK_NAME, row_name) :
     # print(resul)
     # print(gupta)
     sleep(12)
-# deepak()
